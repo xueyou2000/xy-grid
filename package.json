@@ -61,5 +61,10 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/xueyou2000/xy-grid.git"
+    },
+    "jest": {
+        "transformIgnorePatterns": [
+            "<rootDir>/node_modules/(?!(utils-hooks|utils-dom))"
+        ]
     }
 }

@@ -1,2 +1,4 @@
-export { Row } from "./Row";
-export { Col } from "./Col";
+import Row from "./Row";
+import Col from "./Col";
+
+export { Row, Col };
