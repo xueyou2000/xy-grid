@@ -37,11 +37,17 @@ yarn add xy-grid
 
 ## 使用
 
-```ts
+```tsx
 import React from "react";
 import ReactDOM from "react-dom";
-import Grid from "xy-grid";
-ReactDOM.render(<Grid />, container);
+import { Row, Col } from "xy-grid";
+ReactDOM.render(
+    <Row>
+        <Col span={12}>col-12</Col>
+        <Col span={12}>col-12</Col>
+    </Row>,
+    container
+);
 ```
 
 ## 开发
