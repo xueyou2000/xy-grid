@@ -29,10 +29,10 @@
 
 ```sh
 # npm
-npm install --save xy-grid
+npm install --save xy-grid utils-hooks classnames
 
 # yarn
-yarn add xy-grid
+yarn add xy-grid utils-hooks classnames
 ```
 
 ## 使用
