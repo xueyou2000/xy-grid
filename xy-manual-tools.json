@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Simple",
+        "title": "24栅格",
+        "desc": "使用 span 属性设置1~24的栅格"
+    },
+    {
+        "name": "Gutter",
+        "title": "区块间隔",
+        "desc": "使用 gutter 属性设置每个区块之间的间隔"
+    },
+    {
+        "name": "Offset",
+        "title": "左右偏移",
+        "desc": "使用 offset 属性设置栅格左侧的间隔格数"
+    },
+    {
+        "name": "Push",
+        "title": "左右偏移",
+        "desc": "使用 push 属性设置栅格向右移动格数"
+    },
+    {
+        "name": "Flex",
+        "title": "弹性布局",
+        "desc": "设置 type 属性为flex, 启用弹性布局"
+    },
+    {
+        "name": "Responsive",
+        "title": "响应式布局",
+        "desc": "不同屏幕宽度使用不同布局"
+    }
+]
