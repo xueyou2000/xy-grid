@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "../src";
-import "../src/assets/index";
 import "./index.scss";
 
 export default function() {
