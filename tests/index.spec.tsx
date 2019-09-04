@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-testing-library";
+import { render } from "@testing-library/react";
 import { Row, Col } from "../src";
 
 // TODO: 有空书写测试
@@ -18,7 +18,7 @@ describe("Grid", () => {
         const wrapper = render(
             <Row>
                 <Col span={4}>占据4/24</Col>
-            </Row>
+            </Row>,
         );
         const col = wrapper.getByText("占据4/24");
         expect(col.classList.contains("ant-col-4")).toBeTruthy();

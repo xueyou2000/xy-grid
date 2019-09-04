@@ -18,7 +18,7 @@
 
 ```bash
 # yarn
-yarn add xy-grid utils-hooks classnames
+yarn add xy-grid
 ```
 
 ## 使用例子
