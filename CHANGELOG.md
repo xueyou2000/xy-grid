@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.71 (Mon Oct 14 2019)
+
+-   修复 react,react-dom 锁版本
+
 ## 0.0.7 (Tue Sep 03 2019)
 
 -   清除控制台打印, 优化代码警告
