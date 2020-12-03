@@ -1,63 +1,63 @@
 {
-    "name": "xy-grid",
-    "version": "0.1.0",
-    "description": "基于React的24栅格组件",
-    "types": "es/index.d.ts",
-    "main": "es/index.js",
-    "module": "es/index.js",
-    "publisher": "XueYou",
-    "license": "MIT",
-    "sideEffects": [
-        "*.css",
-        "*.scss"
-    ],
-    "files": [
-        "es",
-        "dist",
-        "assets"
-    ],
-    "scripts": {
-        "test": "quick-react-scripts test",
-        "build": "quick-react-scripts build",
-        "start": "xy-manual-tools start -p 6006",
-        "build:demo": "xy-manual-tools build",
-        "_publish": "yarn run test && yarn run build && npm publish"
-    },
-    "keywords": [
-        "react",
-        "react-component",
-        "xy-grid"
-    ],
-    "author": {
-        "name": "XueYou",
-        "email": "xueyoucd@gmail.com"
-    },
-    "publishConfig": {
-        "registry": "http://registry.npmjs.org/"
-    },
-    "devDependencies": {
-        "@testing-library/react": "^9.1.4",
-        "@types/classnames": "^2.2.9",
-        "@types/jest": "24.0.18",
-        "@types/node": "12.7.12",
-        "@types/react": "16.9.5",
-        "@types/react-dom": "16.9.1",
-        "quick-react-scripts": "^1.3.2",
-        "xy-manual-tools": "^0.3.0"
-    },
-    "dependencies": {
-        "classnames": "^2.2.6",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "utils-hooks": "^0.0.72"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xueyou2000/xy-grid.git"
-    },
-    "jest": {
-        "transformIgnorePatterns": [
-            "<rootDir>/node_modules/(?!(utils-hooks))"
-        ]
-    }
+  "name": "xy-grid",
+  "version": "0.1.1",
+  "description": "基于React的24栅格组件",
+  "types": "es/index.d.ts",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "publisher": "XueYou",
+  "license": "MIT",
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "files": [
+    "es",
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "test": "quick-react-scripts test",
+    "build": "quick-react-scripts build",
+    "start": "xy-manual-tools start -p 6006",
+    "build:demo": "xy-manual-tools build",
+    "_publish": "yarn run test && yarn run build && npm publish"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "xy-grid"
+  ],
+  "author": {
+    "name": "XueYou",
+    "email": "xueyoucd@gmail.com"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.1.4",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "24.0.18",
+    "@types/node": "12.7.12",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.1",
+    "quick-react-scripts": "^1.3.2",
+    "xy-manual-tools": "^0.3.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "utils-hooks": "^0.0.72"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xueyou2000/xy-grid.git"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "<rootDir>/node_modules/(?!(utils-hooks))"
+    ]
+  }
 }
