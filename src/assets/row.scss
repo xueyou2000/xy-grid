@@ -49,8 +49,8 @@ $Col: "ant-col";
   align-items: flex-start;
 }
 .#{$RowFlex}-middle {
-  align-content: center;
+  align-items: center;
 }
 .#{$RowFlex}-bottom {
-  align-content: flex-end;
+  align-items: flex-end;
 }
